@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P127_FrontToBack", "P127_FrontToBack\P127_FrontToBack.csproj", "{A65B6CA1-5D28-44E7-9D81-AE9C6094BBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P127_FrontToBackNew", "P127_FrontToBackNew\P127_FrontToBackNew.csproj", "{ED9F2E60-751F-406C-9F02-F8FBD8397D3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65B6CA1-5D28-44E7-9D81-AE9C6094BBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65B6CA1-5D28-44E7-9D81-AE9C6094BBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65B6CA1-5D28-44E7-9D81-AE9C6094BBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65B6CA1-5D28-44E7-9D81-AE9C6094BBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9F2E60-751F-406C-9F02-F8FBD8397D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9F2E60-751F-406C-9F02-F8FBD8397D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9F2E60-751F-406C-9F02-F8FBD8397D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9F2E60-751F-406C-9F02-F8FBD8397D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D35200-7CE3-468A-AE10-2E9D8510D267}
+	EndGlobalSection
+EndGlobal

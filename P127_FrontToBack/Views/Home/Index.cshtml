@@ -1,0 +1,46 @@
+﻿@using P127_FrontToBack.Models
+@using P127_FrontToBack.ViewModels
+@model HomeVM
+@{
+    ViewBag.Title = "Home page";
+    //List<Phone> model = ViewBag.Model;
+    //List<Phone> models = (List<Phone>)ViewData["Model"];
+}
+
+<h1>
+    Product list
+</h1>
+
+<ul>
+    @foreach (Phone item in Model.Phones)
+    {
+       @* @if (item.Count == 0)
+        {
+            <li style="color:red">
+                @item.Id, @item.Brand, @item.Model, @item.Price, @item.Color, Count: @item.Count
+            </li>
+        }
+        else
+        {
+<li>
+           @item.Id, @item.Brand, @item.Model, @item.Price, @item.Color, Count: @item.Count
+       </li>
+        }*@
+        <li style="color:@(item.Count == 0 ? "red": "")">
+           @item.Id, @item.Brand, @item.Model, @item.Price, @item.Color, Count: @item.Count
+       </li>
+    }
+</ul>
+
+
+ <h2>
+     Advertisements
+ </h2>
+<ul>
+    @foreach (Advertisement adv in Model.Advertisements)
+   {
+       <li>
+           <img width="500" src="@adv.Image" alt="@adv.Name"/> <br> @adv.Name <br> @adv.Description <br> Relase Date: @adv.ReleaseDate.ToString("dd,MMMM,yyyy")
+       </li>
+   }
+</ul>
